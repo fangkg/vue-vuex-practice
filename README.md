@@ -1,28 +1,5 @@
 # vue-vuex-practice
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 # Vuex集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以可预测的方式发生变化
 // 概念
 
@@ -102,3 +79,26 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     实现dispatch根据用户传入type执行对应的action,同时传递上下文
     
     实现getters,按照getters定义对state做派生
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
